@@ -48,11 +48,14 @@
   
   <style>
 .carousel {
-  width: 750px;   /* Set the width of the carousel */
+  width: 800px;   /* Set the width of the carousel */
   height: 500px;  /* Set the height of the carousel */
+  position: relative;
+  overflow: hidden;
 }
 
 .carousel img {
+  display: none;
   width: 100%;    /* Set the width of the carousel images to fill the container */
   height: 100%;   /* Set the height of the carousel images to fill the container */
   object-fit: cover; /* Maintain aspect ratio and fill the available space */
@@ -138,7 +141,7 @@
       <div id="results-carousel" class="carousel results-carousel">
        <div class="item">
         <!-- Your image here -->
-        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://rita-li527.github.io/Comp440-JustRun/FLESCH%20plots/news_all.html" height="500" width="750"></iframe>
+        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://rita-li527.github.io/Comp440-JustRun/FLESCH%20plots/news_all.html" height="500" width="800"></iframe>
         <h2 class="subtitle has-text-centered">
           News
         </h2>
@@ -178,14 +181,14 @@
       </div>
       <div class="item">
         <!-- Your image here -->
-        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://rita-li527.github.io/Comp440-JustRun/FLESCH%20plots/blog_each.jpg" height="400" width="750"></iframe>
+        <img src="https://rita-li527.github.io/Comp440-JustRun/FLESCH%20plots/blog_each.jpg" height="400" width="750" alt="Image 1">
         <h2 class="subtitle has-text-centered">
           Media Blog Post
         </h2>
       </div>
       <div class="item">
         <!-- Your image here -->
-        <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://rita-li527.github.io/Comp440-JustRun/FLESCH%20plots/exam_each.jpg" height="400" width="750"></iframe>
+        <img src="https://rita-li527.github.io/Comp440-JustRun/FLESCH%20plots/Exam_each.jpg" height="400" width="750" alt="Image 1">
         <h2 class="subtitle has-text-centered">
          Language Proficiency Exam
        </h2>
