@@ -121,6 +121,10 @@ body {
   font-size: 0;
 }
 
+.carousel-indicators {
+  display: none;  /* Hide the default carousel indicators */
+}
+
 .results-carousel video {
   margin: 0;
 }
